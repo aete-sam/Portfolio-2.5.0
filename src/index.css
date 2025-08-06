@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-editor-text font-mono;
+    background: #1a1a1a; /* Darker background color */
+  }
+}
+
+@layer components {
+  .project-card {
+    @apply relative overflow-hidden rounded-lg bg-editor-sidebar/95 backdrop-blur-sm p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl;
+  }
+  
+  .nav-link {
+    @apply cursor-pointer font-mono text-sm text-editor-text/70 transition-colors hover:text-editor-accent;
+  }
+
+  .section-heading {
+    @apply font-mono text-2xl font-semibold text-editor-accent mb-8;
+  }
+}
+
+
+
+/* Matrix Rain Styles */
+canvas {
+  image-rendering: pixelated;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007ACC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #005a9e;
+}
+
+/* Selection color */
+::selection {
+  background: #007ACC;
+  color: #fff;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #007ACC;
+  outline-offset: 2px;
+}
+
+/* Hover effects for interactive elements */
+.interactive {
+  transition: all 0.3s ease;
+}
+
+.interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 122, 204, 0.2);
+}
