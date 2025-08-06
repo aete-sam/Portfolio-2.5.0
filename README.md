@@ -42,7 +42,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 1. **Clone the repository**
    ```bash
    git clone https://github.com/aete-sam/Portfolio-2.5.0.git
-   cd portfolio-website
+   cd Portfolio-2.5.0
    ```
 
 2. **Install dependencies**
@@ -234,7 +234,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Aetesam Asfar Ullah**
-- GitHub: [@yourusername](https://github.com/aete-sam)
+- GitHub: [@aete-sam](https://github.com/aete-sam)
 - LinkedIn: [Aetesam Asfar Ullah](https://linkedin.com/in/aetesamasfarullah)
 - Email: aetesamasfarullah18@gmail.com
 
