@@ -7,6 +7,10 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?style=for-the-badge&logo=tailwind-css)
 ![Vite](https://img.shields.io/badge/Vite-4.4-blue?style=for-the-badge&logo=vite)
 
+
+## 🔗 [Live Demo →](https://aete-sam.github.io/Portfolio-2.5.0/)
+
+
 ## ✨ Features
 
 - **🎨 Modern Design**: Clean, professional dark theme with code editor aesthetics
